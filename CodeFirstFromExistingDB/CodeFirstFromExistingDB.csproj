@@ -78,6 +78,10 @@
     <Compile Include="Migrations\201912050835161_DeleteDatePublishedColumnFromCoursesTable.Designer.cs">
       <DependentUpon>201912050835161_DeleteDatePublishedColumnFromCoursesTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201912050922076_foo.cs" />
+    <Compile Include="Migrations\201912050922076_foo.Designer.cs">
+      <DependentUpon>201912050922076_foo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="PlutoContext.cs" />
     <Compile Include="Program.cs" />
@@ -106,6 +110,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201912050835161_DeleteDatePublishedColumnFromCoursesTable.resx">
       <DependentUpon>201912050835161_DeleteDatePublishedColumnFromCoursesTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912050922076_foo.resx">
+      <DependentUpon>201912050922076_foo.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
